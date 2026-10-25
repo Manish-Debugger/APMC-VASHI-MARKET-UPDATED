@@ -329,7 +329,7 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
                 key={crop.id} 
                 whileHover={{ y: -6, scale: 1.015 }}
                 transition={{ type: 'spring', stiffness: 350, damping: 25 }}
-                className="agri-card p-4.5 hover:border-emerald-400 hover:shadow-xl transition-all cursor-pointer group flex flex-col justify-between relative overflow-hidden bg-white"
+                className="agri-card p-4 hover:border-emerald-400 hover:shadow-xl transition-all cursor-pointer group flex flex-col justify-between relative overflow-hidden bg-white"
                 onClick={() => onSelectPriceDetail(latestPrice)}
               >
                 <div>
